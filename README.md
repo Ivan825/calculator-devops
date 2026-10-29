@@ -7,7 +7,6 @@ CSE 816 — Software Production Engineering, Mini-Project.
 
 - GitHub: <https://github.com/Ivan825/calculator-devops>
 - Docker Hub: <https://hub.docker.com/r/vortexfrenzy/calculator-devops>
-- Report: [docs/report.pdf](docs/report.pdf) (source: [docs/report.html](docs/report.html), screenshots in [docs/screenshots](docs/screenshots))
 
 ```
  git push ──► GitHub ──(webhook / poll SCM)──► Jenkins
