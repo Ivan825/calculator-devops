@@ -188,6 +188,6 @@ calculator-devops/
 
 ## Git workflow
 
-`main` is kept deployable. Work happens on feature branches (`feature/calculator-api`,
-`feature/containerization`, `feature/jenkins-pipeline`, ...) that are merged into `main` with merge
-commits or pull requests. Every push to `main` is built and deployed by Jenkins.
+`main` is the single deployable branch. The initial features were developed on feature branches
+(`feature/calculator-api`, `feature/containerization`, `feature/jenkins-pipeline`) and merged into
+`main` with merge commits. Every push to `main` is built and deployed by Jenkins.
