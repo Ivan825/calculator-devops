@@ -1,0 +1,40 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.sts4-cache/
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Secrets and local environment overrides
+*.env.local
+.env.*.local
+secrets/
+*.pem
+*.key
+*.p12
+*.jks
+
+# Jenkins / Docker workspace leftovers
+.docker-push/
