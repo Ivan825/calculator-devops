@@ -45,7 +45,7 @@ Runtime stack started by `docker compose up`:
 | Divide    | `GET /api/v1/divide?a=&b=`    | `a / b` (16 significant digits); `b = 0` → HTTP 400 |
 | Health    | `GET /actuator/health`        | `{"status":"UP"}`                         |
 
-Numbers are handled as `BigDecimal`, so decimal arithmetic is exact (`0.1 + 0.2 = 0.3`).
+Numbers are handled as `BigDecimal`, so decimal arithmetic is exact (`0.1 + 0.2 = 0.3`). 
 
 ```bash
 $ curl 'http://localhost:8081/api/v1/add?a=2&b=3'
@@ -144,7 +144,7 @@ docker compose down
   recreates containers whose image or config changed, so re-running a build leaves a healthy
   deployment unchanged. Old numbered image tags are pruned (the last 5 are kept).
 - **No secrets in the repo:** the Docker Hub token and SMTP password live only in the Jenkins
-  credential store.
+  credential store.hwihiwjij
 
 ### Jenkins setup (one time)
 

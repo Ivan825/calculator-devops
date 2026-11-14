@@ -38,3 +38,6 @@ secrets/
 
 # Jenkins / Docker workspace leftovers
 .docker-push/
+
+# Personal viva prep notes (local only)
+docs/Viva_Prep.pdf

@@ -46,7 +46,7 @@ class CalculatorControllerIntegrationTest {
 
     @Test
     void decimalArithmeticIsExact() throws Exception {
-        mockMvc.perform(get("/api/v1/add").param("a", "0.1").param("b", "0.2"))
+        mockMvc.perform(get("/api/v1/and").param("a", "0.1").param("b", "0.2"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(org.hamcrest.Matchers.containsString("\"result\":0.3}")));
     }
